@@ -1,0 +1,4 @@
+.mat-tab-label.mat-tab-label-active {
+    color: orange;
+    /* Set the desired color for the active tab */
+}

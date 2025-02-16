@@ -5,13 +5,12 @@ import { NavBarComponent } from '../Components/NavBar/NavBar.component';
 import { AboutComponent } from '../Components/About/About.component';
 import { ResumeComponent } from '../Components/Resume/Resume.component';
 import { ProjectsComponent } from '../Components/Projects/Projects.component';
-import { ShowProjectsComponent } from '../Components/ChildComponents/ShowProjects/ShowProjects.component';
 import { ContactComponent } from '../Components/Contact/Contact.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [SideBarComponent, NavBarComponent,AboutComponent,RouterOutlet,ResumeComponent ,RouterModule,ProjectsComponent ,ShowProjectsComponent,ContactComponent],
+  imports: [SideBarComponent, NavBarComponent,AboutComponent,RouterOutlet,ResumeComponent ,RouterModule,ProjectsComponent ,ContactComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

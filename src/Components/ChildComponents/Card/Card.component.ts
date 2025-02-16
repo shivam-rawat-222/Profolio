@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-Card',
@@ -9,8 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
 
   constructor() { }
-
+@Input() dataToBind:any
   ngOnInit() {
+    console.log("thisis", this.dataToBind)
   }
 
 }

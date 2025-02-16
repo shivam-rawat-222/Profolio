@@ -8,10 +8,16 @@
       <!-- Filters -->
       <mat-tab-group class="custom-tab-group">
         <mat-tab label="Frontend Development" class="custom-tab">
-          <app-ShowProjects></app-ShowProjects>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+
+            <app-Card [dataToBind]="frontendDev"></app-Card>
+          </div>
         </mat-tab>
         <mat-tab label="Backend Development">
-          <app-ShowProjects></app-ShowProjects>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+
+            <app-Card [dataToBind]="frontendDev"></app-Card>
+          </div>
         </mat-tab>
         <mat-tab label="Full Stack Development"> Content 3 </mat-tab>
         <mat-tab label="Docker"> Content 3 </mat-tab>

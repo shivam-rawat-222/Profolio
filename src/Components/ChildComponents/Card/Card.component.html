@@ -1,7 +1,9 @@
-<div class=" rounded-lg overflow-hidden bg-NavBarBg w-64">
+<div
+  class="card group rounded-lg overflow-hidden bg-gray-800 text-white w-64 transform transition duration-500 hover:translate-y-[-15px] hover:shadow-lg hover:opacity-100 opacity-90">
   <div class="p-6">
-    <h3 class="text-lg font-semibold">ChatApp</h3>
-    <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quod enim nulla vitae
-      ab fugit voluptatibus !</p>
+    <a href="{{dataToBind.url}}" class="block">
+      <h3 class="text-lg font-semibold">{{dataToBind.title}}</h3>
+      <p class="text-sm text-gray-400">{{dataToBind.description}}</p>
+    </a>
   </div>
 </div>
